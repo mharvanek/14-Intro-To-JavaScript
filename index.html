@@ -37,11 +37,29 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/01/2010">
+                        <input class="form-control" id="datetime" type="text" placeholder="1/1/2010">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="fresno">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a State</label>
+                        <input class="form-control" id="state" type="text" placeholder="ca">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="date">Enter a Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="light">
                       </li>
                     </ul>
                   </div>
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  <button id="see-all-btn" type="button" class="btn btn-default">See All</button>
+                  <button id="reset-filters-btn" type="button" class="btn btn-default">Reset Filters</button>
                 </form>
               </div>
             </div>
@@ -61,7 +79,7 @@
                   <th class="table-head">Comments</th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody id="ufo-tbody"></tbody>
             </table>
           </div>
         </div>
